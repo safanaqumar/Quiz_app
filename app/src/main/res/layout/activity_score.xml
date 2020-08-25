@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".scoreActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+   tools:layout_editor_absoluteX ="196dp"
+    tools:layout_editor_absoluteY ="205dp"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="8dp"
+    ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gainscore"
+        android:textSize="38sp"
+        android:textColor="@color/white"
+        android:text="Score"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="8dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scored"
+        android:textSize="38sp"
+        android:textColor="@color/white"
+        android:text="5"
+        android:textAlignment="center"
+        android:textStyle="bold"
+
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/total"
+        android:textSize="38sp"
+        android:textColor="@color/white"
+        android:text="Out OF 5"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="8dp"
+        ></TextView>
+</LinearLayout>
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1">
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/donebtn"
+        android:text="done"
+        android:textColor="@color/colorPrimary"
+
+        android:layout_gravity="center"
+        android:background="@drawable/roundbutton"></Button>
+</FrameLayout>
+
+</LinearLayout>
